@@ -1,0 +1,25 @@
+{
+  "name": "tcc",
+  "version": "1.0.0",
+  "description": "Homepage for a coach",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaGPW/TCC.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Jessica Baptista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaGPW/TCC/issues"
+  },
+  "homepage": "https://github.com/JessicaGPW/TCC#readme"
+}
