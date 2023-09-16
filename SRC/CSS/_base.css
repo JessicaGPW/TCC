@@ -25,26 +25,27 @@
   }
   
   .container {
+    padding: 1.5rem;
     max-width: 1140px;
     margin: 0 auto;
   }
 
 .logo-coach {
-    font-size: 2.375rem;
-    font-weight: 900;
-    line-height: 1ch;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.2ch;
     /* relativa ao tamanho da altura do glifo 0 da fonte */
     text-transform: uppercase;
-    text-align: right;
 }
 
 .logo-coach__subtitle {
     font-size: 0.875rem;
     font-weight: 300;
+    text-align: left;
 }
 
 .logo-coach a {
     text-decoration: none;
-    color: #fff;
+    color: #1C1C1C;
 }
   

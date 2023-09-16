@@ -1,6 +1,6 @@
 .footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #FFE4E1;
+    color: #1C1C1C;
     padding: 0 1rem;
 }
 
@@ -40,17 +40,17 @@
 }
 
 .footer__form input {
-    background-color: var(--color-primary);
+    background-color: #fff;
     border: unset;
     padding: 1rem;
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #000;
+    color: #1C1C1C;
 }
 
 .footer__form input::placeholder {
-    color: #000;
+    color: #1C1C1C;
 }
 
 .footer__form input:focus {
@@ -65,7 +65,7 @@
 }
 
 .footer__form button:hover {
-    color: #fff;
+    color: #1C1C1C;
     background-color: var(--color-copy);
 }
 
@@ -83,7 +83,7 @@
 .footer__social a .fa-twitter,
 .footer__social a:visited .fa-twitter,
 .footer__social a:active .fa-twitter {
-    color: #000;
+    color: #FFE4E1;
 }
 
 .footer hr {

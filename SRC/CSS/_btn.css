@@ -1,7 +1,7 @@
 .btn {
     cursor: pointer;
-    padding: 1rem 2.5rem;
-    border: 0.125rem solid #fff;
+    padding: 1rem 2rem;
+    border: 0.125rem solid #1C1C1C;
     border-radius: 5rem;
     color: var(--color-primary);
     background: unset;
@@ -14,27 +14,36 @@
 .btn:hover,
 .btn:active,
 .btn:focus,
-.btn--institutional,
-.btn--contact {
+.btn--services,
+.btn--aboutme,
+.btn--contact,
+.btn--slide {
     border-color: var(--color-primary);
-    background-color: var(--color-primary);
-    color: #fff;
+    background-color: none;
+    color: #1C1C1C;
 }
 
-.btn--institutional:hover,
-.btn--contact:hover {
+.btn--aboutme:hover,
+.btn--contact:hover,
+.btn--services:hover {
     color: var(--color-copy);
     border-color: var(--color-primary);
     background: unset;
-    box-shadow: 0 1rem 1rem #0006;
+    box-shadow: 0 1rem 1rem #1C1C1C;
 }
 
-.btn--contact:hover {
-    color: #fff;
+.btn--contact:hover,
+.btn--services:hover {
+    color: #1C1C1C;
 }
 
-.btn--quote {
+.btn--slide {
+    position: center;
+}
+
+.btn--blog {
     color: var(--color-copy);
     border-color: var(--color-copy);
     background: unset;
+    margin-top: 3rem;
 }

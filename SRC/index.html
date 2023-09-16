@@ -4,46 +4,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1,0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Renata Rodrigues</title>
+    <title>Mônica Betin</title>
   </head>
 
   <body>
     <nav class="navbar">
       <div class="container navbar__container">
         <h1 class="logo-coach">
-          Studi<span class="copy--primary">on</span>
-          <span class="logo-coach__subtitle">Te guiando para o sucesso</span>
+          <nobr>Mônica <span class="copy--primary"> Betin</span></nobr>
+          <span class="logo-coach__subtitle">Da ambição ao sucesso</span>
         </h1>
 
         <ul class="navbar__links">
           <li>
-            <a href="home.html"> Inicio </a>
+            <a href="#aboutme"> Sobre Mim </a>
           </li>
 
           <li>
-            <a href="aboutme.html"> Sobre Mim </a>
+            <a href="#services"> Produtos </a>
           </li>
 
           <li>
-            <a href="services.html"> Produtos </a>
+            <a href="#blog"> Blog </a>
           </li>
 
           <li>
-            <a href="testimonials.html"> Depoimentos </a>
+            <a href="#contact"> Contatos </a>
           </li>
 
           <li>
-            <a href="contact.html"> Contatos </a>
+            <a href="login.html"> Login</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header>
-      <div class="slider">
+
         <div class="slide">
           <img
             class="slide__background-image"
@@ -51,71 +56,57 @@
             alt="Coach Banner"
           />
           <div class="slide__copy">
+            <h5>
+              <span class="copy--primary"> Ambição é o primeiro passo para o</span>
+            </h5>
+            
+            <h2><span class="copy--primary">SUCESSO!</span> </h2>
+
             <h6>
-              <span class="copy--primary"> Palestra ao vivo </span> - Dia 21 de
-              Agosto às 19h - Na arena da amazonônia
+              <span class="copy--primary">Nós cuidamos do seu dinheiro</span>
             </h6>
 
-            <h2><span class="copy--primary">A ambição é o primeiro passo para o</span> Sucesso</h2>
-
-            <button class="btn btn--slide">Reserve agora</button>
+            <button class="btn btn--slide">Saiba Mais</button>
           </div>
         </div>
-        <div class="slide">
-          <img
-            class="slide__background-image"
-            src="./Images/home.jpg"
-            alt="Coach Banner"
-          />
-          <div class="slide__copy">
-            <h6>
-              <span class="copy--primary">Paletra ao Vivo</span> - Dia 21 de
-              Agosto às 19h
-            </h6>
-
-            <h2><span class="copy--primary">SUCESSO</span> Garantido</h2>
-
-            <button class="btn btn--slide">Reserve Agora</button>
-          </div>
-        </div>
-        
-
-         
       </div>
+      
     </header>
-
     <main>
-      <section id="counter">
-        <ul class="container counter__container">
+      <section id="services">
+        <ul class="container services__container">
           <li>
             <h3>
-              + de 500
-              <small>eventos realizados</small>
+              Renda Fixa 
+              <small>Investimento min. R$5 mil</small>
             </h3>
+            <button class="btn btn--services"> Invista Aqui</button>
           </li>
           <li>
             <h3>
-              + de 1.000.000
-              <small>de ingressos vendidos</small>
+              Cryptos
+              <small>A partir de R$89 ao mês</small>
             </h3>
+            <button class="btn btn--services"> Saiba Mais</button>
           </li>
           <li>
             <h3>
-              + de 300
-              <small>empresas atendidas</small>
+              Commodities
+              <small>Investimento min. R$300</small>
             </h3>
+            <button class="btn btn--services"> Invista Aqui</button>
           </li>
         </ul>
       </section>
-
-      <section class="container institutional">
+      <section id="aboutme">
+      <section class="container aboutme">
         <img
-          class="institutional__image"
+          class="aboutme__image"
           src="./Images/aboutme.jpg"
-          alt="Coach institutional"
+          alt="Mônica Betin Aboutme"
         />
-        <div class="institutional__copy">
-          <h6>Sou Renata Rodrigues</h6>
+        <div class="aboutme__copy">
+          <h6>Sou Mônica Betin</h6>
 
           <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
 
@@ -126,33 +117,81 @@
             culpa saepe amet minus?
           </p>
 
-          <button class="btn btn--institutional">Saiba mais</button>
+          <button class="btn btn--aboutme">Venha me Conhecer</button>
         </div>
       </section>
+      </section>
 
-      <section class="quote">
-        <div class="container quote__container">
-          <div class="quote__copy">
-            <h6>
-              Você informa a temática e nós planejamos um evento com tecnologia
-              e
-            </h6>
+      <section id="blog">
+      <section class="blog">
+        <div class="container blog__container">
+          <div class="blog__copy">
+            <h2>
+              Bitcoin irá decolar? 
+            </h2>
 
-            <h2><span class="copy--primary">Muito + </span>Diversão</h2>
+            <h6><span class="copy--primary">Confira a opnião da nossa especialista</span></h6>
 
-            <button class="btn btn--quote">Fazer cotação</button>
+            <button class="btn btn--blog">Leia</button>
           </div>
         </div>
+    </section>
+    </section>
+    <section id="contact">
+    <section class="contact">
+        <section class="contact__info">
+          <div class="contact__info__container">
+            <h3>Ligue!</h3>
+            <span>
+              <i class="fas fa-phone"></i>
+              +55 92 3206 - 5764
+            </span>
+            <span>
+              <i class="fab fa-whatsapp"></i>
+              +55 92 99943 - 7227
+            </span>
+            <h3>Venha Nos Conhecer</h3>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+              Av. Avenida Umberto Calderaro - 455, Cristal Tower - Manaus - AM           </span>
+          </div>
+        </section>
+
+        <section class="contact__form">
+          <form class="contact__form__container" action="">
+            <h3>Fale Conosco</h3>
+            <label for="name">Seu nome</label>
+            <input id="name" type="text" />
+            <label for="email">Seu email</label>
+            <input id="email" type="text" />
+            <label for="message">Sua menssagem</label>
+            <input id="message" type="text" />
+            <button class="btn btn--contact" type="submit">Enviar</button>
+          </form>
+        </section>
       </section>
+      </section>
+
+      <section class="maps">
+        <iframe
+          width="100%"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9651585736465!2d-60.01281952516531!3d-3.1039122968716595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c054ce907fdb5%3A0x21d73eec06d70ba3!2sCristal%20Tower!5e0!3m2!1spt-BR!2sbr!4v1694741627299!5m2!1spt-BR!2sbr" 
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </section>
+
     </main>
 
     <footer class="footer">
       <div class="container footer__container">
         <h2 class="logo-coach">
-          Studi<span class="copy--primary">on </span>
-          <span class="logo-coach__subtitle">Eventos</span>
+          Mônica<span class="copy--primary"> Betin </span>
+          <span class="logo-coach__subtitle">Da ambição ao sucesso</span>
         </h2>
-  
+
         <form class="footer__form">
           <label for="email">receba news e promoções</label>
           <div class="footer__email">
@@ -162,14 +201,14 @@
             </button>
           </div>
         </form>
-  
+
         <ul class="footer__social">
           <li>
             <a href="https://facebook.com/" target="_blank">
               <i class="fab fa-facebook fa-2x"></i>
             </a>
           </li>
-  
+
           <li>
             <a href="https://twitter.com" target="_blank">
               <span class="fa-stack">
@@ -178,7 +217,7 @@
               </span>
             </a>
           </li>
-  
+
           <li>
             <a href="https://youtube.com" target="_blank">
               <i class="far fa-circle-play fa-2x"></i>
@@ -190,7 +229,10 @@
       <hr />
 
       <p>
-        <small>Renata<span class="copy--primary">Rodrigues</span> - Todos os direitos reservados.</small>
+        <small
+          >Jessica<span class="copy--primary"> Baptista</span> - Todos os
+          direitos reservados.</small
+        >
       </p>
     </footer>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

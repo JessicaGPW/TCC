@@ -1,13 +1,6 @@
-$(document).ready(() => {
-    const slickOptions = {
-        autoplay: true,
-        dots: false,
-        prevArrow: '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>',
-        nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button>'
-    };
-    $('.slider').slick(slickOptions);
+document.getElementById('footer__form').addEventListener('submit', function(event) {
 
-    $('.footer__form-button').on('click', () => {
+   $('.footer__form-button').on('click', () => {
         const email = $('#email').val();
         Email.send({
             Host: "smtp.yourisp.com",
@@ -21,5 +14,15 @@ $(document).ready(() => {
             message => alert(message)
         );
     });
+}
 
-});
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+    
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
+
+ 
+    

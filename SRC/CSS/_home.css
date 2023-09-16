@@ -1,93 +1,70 @@
-.slider {
-    background-color: #000;
-    color: #fff;
-}
-
-.slider__prev-arrow,
-.slider__next-arrow {
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 5px solid #fff;
-    border-right: unset;
-    border-bottom: unset;
-    opacity: 0.7;
-}
-
-.slider__prev-arrow {
-    z-index: 1;
-    left: 1rem;
-    transform: rotate(-45deg);
-}
-
-.slider__next-arrow {
-    right: 1rem;
-    transform: rotate(135deg);
-}
-
-.slider__prev-arrow::before,
-.slider__next-arrow::before {
-    content: "";
-}
-
 .slide {
+    margin-top: 6rem;
     position: relative;
     height: 90vh;
 }
 
 .slide__background-image {
+    opacity: 70%;
     width: 100%;
     height: 100%;
     position: absolute;
+    text-align: center;
     object-fit: cover;
     object-position: center;
 }
 
 .slide__copy {
-    position: absolute;
-    top: 6.25rem;
-    left: 50vw;
+   position: absolute;
+   text-align: center;
+   top: 6rem;
+   left: 20vw;
+   font-weight: 600;
+   
 }
 
-.slide__copy h6 {
-    font-size: 0.9375rem;
-    font-weight: 400;
+.slide__copy h5 {
+    font-size: 2.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.1875rem;
+    
 }
 
 .slide__copy h2 {
-    font-size: 6.25rem;
+    font-size: 6rem;
     text-transform: uppercase;
-    line-height: 6.25rem;
+    line-height: 1rem;
 }
 
-.slide__copy h2 span {
-    display: block;
+.slide__copy h6 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    
 }
 
-#counter {
-    background-color: var(--color-primary);
-    color: #fff;
+#services {
+    background-color: #FFE4E1;
+    color: #1C1C1C;
     text-transform: uppercase;
 }
 
-.counter__container {
+.services__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
-    padding: 4.375rem 1rem;
+    line-height: 4rem;
+    text-align: center;
 }
 
-.counter__container h3 {
+.services__container h3 {
     font-size: 2.1875rem;
 }
 
-.counter__container h3 small {
+.services__container h3 small {
     display: block;
-    font-size: 1.25rem;
+    font-size: 0.667rem;
 }
 
-.institutional {
+.aboutme {
     display: grid;
     grid-template-columns: auto auto;
     gap: 3.125rem;
@@ -95,15 +72,15 @@
     padding: 4.375rem;
 }
 
-.institutional__image {
+.aboutme__image {
     max-width: 550px;
 }
 
-.institutional__copy {
+.aboutme__copy {
     padding: 0 1.875rem;
 }
 
-.institutional__copy h6 {
+.aboutme__copy h6 {
     font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -111,12 +88,12 @@
     margin: 0;
 }
 
-.institutional__copy h4 {
+.aboutme__copy h4 {
     font-size: 1.5625rem;
     margin-top: 1rem;
 }
 
-.institutional p {
+.aboutme p {
     font-family: "Roboto", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6875rem;
@@ -124,44 +101,47 @@
     margin-bottom: 2.5rem;
 }
 
-.quote {
-    background-image: url(C:\Users\bapti\OneDrive\ÁreadeTrabalho\ImagineSchool\TCC\SRC\Images);
+.blog {
+    background-image: url(../Images/blog.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
 }
 
-.quote__container {
+.blog__container {
     display: grid;
-    align-items: center;
+    align-items: end;
     justify-items: end;
-    min-height: 80vh;
+    min-width: none;
+    min-height: 60vh;
 }
 
-.quote__copy {
-    background-color: #fff;
-    padding: 5.625rem 4.375rem;
+.blog__copy {
+    background-color: #ffff;
+    padding: 2.625rem 2.375rem;
+    
 }
 
-.quote__copy h6 {
-    font-size: 00.9375rem;
+.blog__copy h6 {
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.1875rem;
+    text-align: left;
     line-height: 1.4375rem;
-    width: 53ch;
+    width: 43ch;
     text-transform: uppercase;
     margin: 0;
 }
 
-.quote__copy h2 {
-    font-size: 5rem;
-    line-height: 5rem;
+.blog__copy h2 {
+    font-size: 3rem;
+    line-height: 3rem;
     text-transform: uppercase;
     letter-spacing: -0.1875rem;
     margin: 1.875rem 0;
 }
 
-.quote__copy h2 span {
+.blog__copy h2 span {
     display: block;
 }
